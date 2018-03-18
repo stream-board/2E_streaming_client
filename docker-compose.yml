@@ -1,0 +1,7 @@
+version: "2"
+services:
+    client_ms:
+        build: .
+        ports:
+            - "8443:8443"
+        tty: true
